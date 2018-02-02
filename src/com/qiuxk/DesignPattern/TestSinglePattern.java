@@ -11,6 +11,7 @@ public class TestSinglePattern {
    SinglePattern singlePattern= SinglePattern.getInstance();
 
     SinglePattern single= singlePattern.getInstance;
+    String outStr=single.pritln;
   //  System.out.println("");
-    System.out.println("");
+    System.out.println("outStr");
 }
