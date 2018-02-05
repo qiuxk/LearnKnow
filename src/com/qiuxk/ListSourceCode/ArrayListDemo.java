@@ -15,6 +15,7 @@ public class ArrayListDemo {
         //                2.可以为空元素和重复元素
 
         //初始数组是10 add方法会调用grow方法 对数组实现扩容 每次是1.5倍+1
+        // ArrayList 遍历时很快 但是插入、删除都需要移动到后面的元素 效率略差   不如LinkedList
         //ArrayList 继承AbstractList抽象类
         // 实现List<E>, RandomAccess, Cloneable, java.io.Serializable类
 
